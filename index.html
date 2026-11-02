@@ -59,8 +59,24 @@
     @media (max-width: 480px) { header { padding: 23px 24px; } main { padding-bottom: 65px; } .panel { padding: 35px 24px 30px; border-radius: 23px; } }
     @media (prefers-reduced-motion: reduce) { .spinner, .loading-dots span, .enter { animation: none; } .cta { transition: none; } }
   </style>
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;
+  n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1148258254522390');
+  fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
 </head>
 <body>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1148258254522390&ev=PageView&noscript=1" /></noscript>
+
   <header>
     <span class="brand-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m21 3-7 18-4-7-7-4 18-7Z"/><path d="m10 14 5-5"/></svg></span>
     <span>Acesso ao bot</span>
